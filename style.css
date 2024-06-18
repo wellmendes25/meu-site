@@ -362,6 +362,10 @@ main #primeira-sessao img{
         left: 89%;
         
     }
+    
+    header a{
+        font-size: 20px;
+    }
 
     header img{
         display: none;
