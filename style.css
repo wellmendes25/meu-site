@@ -534,9 +534,9 @@ main #primeira-sessao img{
         
     }
     #segunda-sessao .texto-segunda-sessao{
-        font-size: 25px;
-        line-height: 25px;
-        text-align: center;
+        font-size: 22px;
+        text-align: justify;
+        
     }
     
     
@@ -552,6 +552,3 @@ main #primeira-sessao img{
         
     }
 }
-
-
-
