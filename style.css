@@ -457,7 +457,7 @@ footer > p {
 
     @keyframes movimento {
         from {color: var(--segunda-cor)}
-        to {color: var(--primeira-cor);}
+        to {color: var(--quinta-cor);}
     }
 
     #primeira-sessao h1{
@@ -520,7 +520,7 @@ footer > p {
     
 
     #segunda-sessao .texto-segunda-sessao{
-        line-height: 25px;
+        line-height: 22px;
         text-align: center;
         margin: 50px;
         font-size: 15px;
