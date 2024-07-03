@@ -224,6 +224,7 @@ main #primeira-sessao img{
 }
 
 
+<<<<<<< HEAD
 #terceira-sessao #pai{
     display: flex;
     flex-wrap: wrap;
@@ -261,11 +262,14 @@ main #primeira-sessao img{
    width: 400px;
    height: 500px;
 }
+=======
+>>>>>>> 88058c01db42935b045709b8605936e5a2e499c6
 
 
 
 /* Footer */
 
+<<<<<<< HEAD
 footer > p {
     display: flex;
     height: 40px;
@@ -277,6 +281,8 @@ footer > p {
     
 }
 
+=======
+>>>>>>> 88058c01db42935b045709b8605936e5a2e499c6
 /* Media queries */
 
 @media (max-width: 1145px){
@@ -625,6 +631,9 @@ footer > p {
         
     }
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 88058c01db42935b045709b8605936e5a2e499c6
