@@ -610,7 +610,8 @@ footer > p {
     }
     #segunda-sessao .texto-segunda-sessao{
         font-size: 22px;
-        text-align: justify;
+        line-height: 20px;
+        text-align: center;
         
     }
     
