@@ -106,6 +106,11 @@ main{
 
 /* Primeira section */
 
+@keyframes movimento {
+    from {left: 0px; color: var(--primeira-cor)}
+    to {left: 90px}
+}
+
 #primeira-sessao{
     display: flex;
     flex-direction: row;
@@ -131,6 +136,7 @@ main{
     z-index: 2;
     padding: 150px 5px 0px 0px;
     font-family: 'Times New Roman', Times, serif;
+   
     
 }
 
@@ -139,6 +145,8 @@ main{
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
     color: var(--terceira-cor);
+    position: relative;
+    animation: movimento 5s infinite;
 }
 
 #primeira-sessao .texto .icones img{
@@ -216,10 +224,58 @@ main #primeira-sessao img{
 }
 
 
+#terceira-sessao #pai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid red;
+}
+
+#terceira-sessao h1{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 45px;
+}
+
+#terceira-sessao h1::first-letter{
+    color: #F2A25C;
+    font-size: 75px;
+}
+
+#terceira-sessao #pai .filho-1 video{
+    border: 1px solid rgb(0, 255, 76);
+    width: 400px;
+    height: 500px;
+}
+
+#terceira-sessao #pai .filho-2{
+    border: 1px solid rgb(0, 38, 255);
+    width: 400px;
+    height: 500px;
+}
+
+#terceira-sessao #pai .filho-3{
+    border: 1px solid rgb(200, 255, 0);
+   width: 400px;
+   height: 500px;
+}
 
 
 
 /* Footer */
+
+footer > p {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: var(--terceira-cor);
+    color: var(--segunda-cor);
+    
+}
 
 /* Media queries */
 
@@ -277,6 +333,13 @@ main #primeira-sessao img{
 }
 
 @media (max-width:750px){
+
+    @keyframes movimento {
+        from {left: 0px; color: var(--primeira-cor)}
+        to {left: 70px}
+    }
+
+
     main #pra-cima{
         position: fixed;
         top: 90%;
@@ -286,6 +349,11 @@ main #primeira-sessao img{
 }
 
 @media (max-width:659px){
+
+    @keyframes movimento {
+        from {left: 0px; color: var(--primeira-cor)}
+        to {left: 40px}
+    }
 
     #primeira-sessao h1{
         font-size: 35px;
@@ -383,6 +451,11 @@ main #primeira-sessao img{
     header nav{
         display: flex;
         margin: 0px auto 0px auto;
+    }
+
+    @keyframes movimento {
+        from {left: 0px; color: var(--primeira-cor)}
+        to {left: 30px}
     }
 
     #primeira-sessao h1{
@@ -534,9 +607,9 @@ main #primeira-sessao img{
         
     }
     #segunda-sessao .texto-segunda-sessao{
-        font-size: 25px;
-        line-height: 25px;
-        text-align: center;
+        font-size: 22px;
+        text-align: justify;
+        
     }
     
     
