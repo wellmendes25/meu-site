@@ -453,7 +453,7 @@ footer > p {
 
     @keyframes movimento {
         from {left: 0px; color: var(--primeira-cor)}
-        to {left: 30px}
+        to {left: 20px}
     }
 
     #primeira-sessao h1{
