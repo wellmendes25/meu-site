@@ -3,12 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-
-  
+    font-family: "Teko", sans-serif;
 }
 
 :root{
@@ -25,7 +28,7 @@ html{
 }
 
 #segunda-sessao .texto-segunda-sessao::first-letter, #segunda-sessao .sobre-mim::first-letter{
-    font-size: 75px;
+    font-size: 55px;
     color: var(--terceira-cor);
 }
 
@@ -56,6 +59,10 @@ main #pra-cima{
     width: 50px;
     height: 50px;
     cursor: pointer;
+}
+
+h1{
+    font-family: "Exo 2", sans-serif;
 }
 
 
@@ -91,7 +98,7 @@ header a{
 header a:hover{
     font-size: 35px;  
     transition: 1.3s;
-    color: var(--primeira-cor);
+    color: var(--terceira-cor);
     text-shadow: 1px 5px 5px 5px var(--terceira-cor);
   }
 
@@ -111,7 +118,7 @@ main{
 
 @keyframes movimento {
     from {left: 0px; color: var(--primeira-cor)}
-    to {left: 90px}
+    to {left: 90px; color: #3E5476}
 }
 
 #primeira-sessao{
@@ -149,7 +156,7 @@ main{
     font-family: "Roboto", sans-serif;
     color: var(--quinta-cor);
     position: relative;
-    animation: movimento 5s infinite;
+    animation: movimento 4s infinite alternate;
 }
 
 #primeira-sessao .texto .icones img{
@@ -241,12 +248,12 @@ main #primeira-sessao img{
 #terceira-sessao h1{
     margin: 10px 0px;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 #terceira-sessao h1::first-letter{
     color: var(--terceira-cor);
-    font-size: 75px;
+    font-size: 55px;
 }
 
 #terceira-sessao #pai .filho-1 video{
@@ -305,7 +312,7 @@ footer > p {
     }
 }
 
-@media (max-width:940){
+@media (max-width:940px){
     #primeira-sessao{
         display: flex;
         flex-direction: column-reverse;
@@ -476,6 +483,8 @@ footer > p {
 
      #primeira-sessao .fonte-wellison{
         font-size: 50px;
+        animation-timing-function: ease-in-out;
+        animation-duration: 4s;
      
     }
 
